@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/2023/10/21/2023-10-21-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/10/21/2023-10-21-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>不乖是我的儿子</title>
+      <link href="/2023/10/21/21-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/10/21/21-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>不乖是我儿子的名字，这个名字似乎成了他的个性的象征。他总是给人一种不守规矩、不听话、不安分的印象。每次家长会上，老师都会对我说：“您的儿子不够乖巧，经常捣乱影响其他孩子学习。”听到这样的话，我总是有些为难，但又无比自豪。</p><p>儿子的名字“不乖”实际上是我们全家对他的一种特殊期望。我们希望他能够不拘泥于传统的思维方式，敢于挑战常规，追求自己的梦想。他的不乖，是他对世界的好奇心和探索欲的表现。他喜欢问一些奇怪的问题，总是对周围的事物充满了疑惑和探索的欲望。有一次，他问我：“为什么天上的云会动？”我尽力给他解释，但他总是不满足于表面的答案，他希望能够亲自去感受云的柔软和飘逸。于是，他拿起了一根棉花棒，伸手去触摸天空中的云朵，不顾周围人的惊讶和嘲笑。我看到他那种勇于探索的精神，心里充满了骄傲和感动。</p><p>在学校里，儿子也是一个“不乖”的孩子。他不喜欢墨守成规，总是充满了创造力和想象力。他会在课堂上提出一些与众不同的观点，有时候甚至会与老师产生一些争执。尽管这样的行为经常会招致批评和惩罚，但他从不后悔自己的选择。他坚信，只有勇于表达自己的想法，才能真正做到与众不同。尽管他的成绩并不出色，但我相信，他的独特思维和勇气将会为他的未来铺平道路。</p><p>作为父亲，我也曾经试图改变他的不乖，让他更加听话、守规矩。然而，我渐渐明白，他的不乖并不等于顽劣或者懒散。相反，他的不乖是他个性的一部分，是他独特的魅力所在。他的不乖让他有勇气面对困难，有坚持追求梦想的勇气。他的不乖让他能够看到世界的不同角度，发现他人所忽略的美好。他的不乖让他能够敢于冒险，勇于挑战自我。这些都是他成长过程中宝贵的财富。</p><p>因此，我决定不再试图改变他的不乖。相反，我将更加支持他，鼓励他发挥自己的想象力和创造力。我相信，只有在不拘一格的环境中，他才能真正展现出自己的潜力。我希望他能够坚持自己的信念，不被他人的评判所左右。我相信，他的不乖将会成为他成功的关键，让他在未来的道路上走得更加坚定和自信。不乖的儿子，我为你自豪！</p>]]></content>
       
       
+      <categories>
+          
+          <category> 我的儿子---不乖 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不乖的爸爸 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -20,31 +32,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -64,9 +54,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -78,6 +68,28 @@
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
