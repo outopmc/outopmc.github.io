@@ -1515,7 +1515,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://i.imgs.ovh/2023/12/06/3JPCX.png);
+  background: url(https://img.199866.xyz/file/3d94de98b88ce04802f2e.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -4132,7 +4132,7 @@ h1.page-title + .tag-cloud-list {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: var(--anzhiyu-card-bg);
+  background: #fff;
   z-index: 1001;
   opacity: 1;
   -ms-filter: none;
