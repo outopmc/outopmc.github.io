@@ -8,7 +8,7 @@
       <link href="/1970/01/01/eee/"/>
       <url>/1970/01/01/eee/</url>
       
-        <content type="html"><![CDATA[<h1 id="1-环境的准备"><a href="#1-环境的准备" class="headerlink" title="1.环境的准备"></a>1.环境的准备</h1><h2 id="1-1-安装-nodejs"><a href="#1-1-安装-nodejs" class="headerlink" title="1.1 安装 nodejs"></a>1.1 安装 nodejs</h2><p>点击 <a href="https://nodejs.org/en/">NodeJs 官网</a>，下载最新版本。</p><p><img src="https://picshack.net/ib/bxgFe73C2r.png" alt="code"></p><p>下载好后直接傻瓜式安装,一直点next,这个步骤很简单，就不放图了。</p><h2 id="1-2-安装-git"><a href="#1-2-安装-git" class="headerlink" title="1.2 安装 git"></a>1.2 安装 git</h2><p>点击 <a href="https://git-scm.com/downloads">git 官网</a>，下载安装包。</p><p><img src="https://img-blog.csdnimg.cn/img_convert/50972d6b1f9f8e7689c86395ffd03301.png" alt="code"></p><p>点击 next，选择文件夹位置，然后一直 next 到结束就行了。安装好后鼠标右击桌面应该有下图这两个选项了，出现就代表安装成功了。</p><h1 id="2-使用-Hexo"><a href="#2-使用-Hexo" class="headerlink" title="2. 使用 Hexo"></a>2. 使用 Hexo</h1><h2 id="2-1-安装-Hexo"><a href="#2-1-安装-Hexo" class="headerlink" title="2.1 安装 Hexo"></a>2.1 安装 Hexo</h2><p>在桌面右键，选择 Git Bash Here，打开这个窗口。</p><p><img src="https://picshack.net/ib/zTFrgLIILK.png" alt="code"></p><p>输入以下命令。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>Tip: Git Bash里粘贴键不是ctrl+v，而是Shift+Insert，或者右键选择paste</p><h2 id="2-2"><a href="#2-2" class="headerlink" title="2.2"></a>2.2</h2><p>安装好 Hexo 之后,新建一个文件夹，用于做你的项目文件夹，如我的：D:\Hexo-blog,在文件夹内右键，选择Git Bash Here,输入一下指令。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>稍等片刻即可完成，如图：</p><p><img src="https://img-blog.csdnimg.cn/img_convert/de53f3fae052b887a5c02117d15d255e.png" alt="code"></p><p>文件结构如图所示：</p><p><img src="https://img-blog.csdnimg.cn/img_convert/eabe0a6b507c434f09138a7f4272ff54.png" alt="code"></p><p>【node_modules】：依赖包<br>【scaffolds】：生成文章的一些模板<br>【source】：用来存放你的文章<br>【themes】：主题<br>【.npmignore】：发布时忽略的文件（可忽略）<br>【_config.landscape.yml】：主题的配置文件<br>【config.yml】：博客的配置文件<br>【package.json】：项目名称、描述、版本、运行和开发等信息</p><p>然后再输入命令行进行本地调试，即可看到初始效果啦~<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s --debug</span><br></pre></td></tr></table></figure></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-环境的准备"><a href="#1-环境的准备" class="headerlink" title="1.环境的准备"></a>1.环境的准备</h1><h2 id="1-1-安装-nodejs"><a href="#1-1-安装-nodejs" class="headerlink" title="1.1 安装 nodejs"></a>1.1 安装 nodejs</h2><p>点击 <a href="https://nodejs.org/en/">NodeJs 官网</a>，下载最新版本。</p><p><img src="https://picshack.net/ib/bxgFe73C2r.png" alt="code"></p><p>下载好后直接傻瓜式安装,一直点next,这个步骤很简单，就不放图了。</p><h2 id="1-2-安装-git"><a href="#1-2-安装-git" class="headerlink" title="1.2 安装 git"></a>1.2 安装 git</h2><p>点击 <a href="https://git-scm.com/downloads">git 官网</a>，下载安装包。</p><p><img src="https://img-blog.csdnimg.cn/img_convert/50972d6b1f9f8e7689c86395ffd03301.png" alt="code"></p><p>点击 next，选择文件夹位置，然后一直 next 到结束就行了。安装好后鼠标右击桌面应该有下图这两个选项了，出现就代表安装成功了。</p><h1 id="2-使用-Hexo"><a href="#2-使用-Hexo" class="headerlink" title="2. 使用 Hexo"></a>2. 使用 Hexo</h1><h2 id="2-1-安装-Hexo"><a href="#2-1-安装-Hexo" class="headerlink" title="2.1 安装 Hexo"></a>2.1 安装 Hexo</h2><p>在桌面右键，选择 Git Bash Here，打开这个窗口。</p><p><img src="https://picshack.net/ib/zTFrgLIILK.png" alt="code"></p><p>输入以下命令。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>Tip: Git Bash里粘贴键不是ctrl+v，而是Shift+Insert，或者右键选择paste</p><h2 id="2-2"><a href="#2-2" class="headerlink" title="2.2"></a>2.2</h2><p>安装好 Hexo 之后,新建一个文件夹，用于做你的项目文件夹，如我的：D:\Hexo-blog,在文件夹内右键，选择Git Bash Here,输入一下指令。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>稍等片刻即可完成，如图：</p><p><img src="https://picshack.net/ib/c8iphSm1Ud.png" alt="code"></p><p>文件结构如图所示：</p><p><img src="https://picshack.net/ib/MdTxpPgOgS.png" alt="code"></p><p>【node_modules】：依赖包<br>【scaffolds】：生成文章的一些模板<br>【source】：用来存放你的文章<br>【themes】：主题<br>【.npmignore】：发布时忽略的文件（可忽略）<br>【_config.landscape.yml】：主题的配置文件<br>【config.yml】：博客的配置文件<br>【package.json】：项目名称、描述、版本、运行和开发等信息</p><p>然后再输入命令行进行本地调试，即可看到初始效果啦~<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s --debug</span><br></pre></td></tr></table></figure></p>]]></content>
       
       
       <categories>
@@ -26,11 +26,11 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>游戏</title>
+      <link href="/Game/index.html"/>
+      <url>/Game/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ul><li>普普通通的一个游戏导航</li></ul>]]></content>
       
     </entry>
     
@@ -48,11 +48,33 @@
     
     
     <entry>
-      <title>游戏</title>
-      <link href="/Game/index.html"/>
-      <url>/Game/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<ul><li>普普通通的一个游戏导航</li></ul>]]></content>
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="这里什么都没有，没想到写什么"><a href="#这里什么都没有，没想到写什么" class="headerlink" title="这里什么都没有，没想到写什么~"></a>这里什么都没有，没想到写什么~</h1>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客统计</title>
+      <link href="/census/index.html"/>
+      <url>/census/index.html</url>
+      
+        <content type="html"><![CDATA[<p><script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script></p><p><script src="https://npm.elemecdn.com/echarts@4.9.0/map/js/china.js"></script> <!-- 绘制地图需要另外添加 china.js --></p>]]></content>
       
     </entry>
     
@@ -81,28 +103,6 @@
     
     
     <entry>
-      <title>博客统计</title>
-      <link href="/census/index.html"/>
-      <url>/census/index.html</url>
-      
-        <content type="html"><![CDATA[<p><script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script></p><p><script src="https://npm.elemecdn.com/echarts@4.9.0/map/js/china.js"></script> <!-- 绘制地图需要另外添加 china.js --></p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="这里什么都没有，没想到写什么"><a href="#这里什么都没有，没想到写什么" class="headerlink" title="这里什么都没有，没想到写什么~"></a>这里什么都没有，没想到写什么~</h1>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
@@ -115,10 +115,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/progress_bar.css"/>
-      <url>/css/progress_bar.css</url>
+      <link href="/css/kslink.css"/>
+      <url>/css/kslink.css</url>
       
-        <content type="html"><![CDATA[.pace {  -webkit-pointer-events: none;  pointer-events: none;  -webkit-user-select: none;  -moz-user-select: none;  user-select: none;  z-index: 2000;  position: fixed;  margin: auto;  top: 10px;  left: 0;  right: 0;  height: 8px;  border-radius: 8px;  width: 4rem;  background: #eaecf2;  border: 1px #e3e8f7;  overflow: hidden;}.pace-inactive .pace-progress {  opacity: 0;  transition: 0.3s ease-in;}.pace .pace-progress {  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -ms-box-sizing: border-box;  -o-box-sizing: border-box;  box-sizing: border-box;  -webkit-transform: translate3d(0, 0, 0);  -moz-transform: translate3d(0, 0, 0);  -ms-transform: translate3d(0, 0, 0);  -o-transform: translate3d(0, 0, 0);  transform: translate3d(0, 0, 0);  max-width: 200px;  position: absolute;  z-index: 2000;  display: block;  top: 0;  right: 100%;  height: 100%;  width: 100%;  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  animation: gradient 1.5s ease infinite;  background-size: 200%;}.pace.pace-inactive {  opacity: 0;  transition: 0.3s;  top: -8px;}@keyframes gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}.loading-img {  background: url(https://picshack.net/ib/5CEy5AuqJ6.png) no-repeat center center;  background-size: cover;}]]></content>
+        <content type="html"><![CDATA[/* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transtion: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 12px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid, .fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: #9ff7a4;    color: #e4e9e6;}]]></content>
       
     </entry>
     
@@ -148,10 +148,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+        <content type="html"><![CDATA[.pace {  -webkit-pointer-events: none;  pointer-events: none;  -webkit-user-select: none;  -moz-user-select: none;  user-select: none;  z-index: 2000;  position: fixed;  margin: auto;  top: 10px;  left: 0;  right: 0;  height: 8px;  border-radius: 8px;  width: 4rem;  background: #eaecf2;  border: 1px #e3e8f7;  overflow: hidden;}.pace-inactive .pace-progress {  opacity: 0;  transition: 0.3s ease-in;}.pace .pace-progress {  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -ms-box-sizing: border-box;  -o-box-sizing: border-box;  box-sizing: border-box;  -webkit-transform: translate3d(0, 0, 0);  -moz-transform: translate3d(0, 0, 0);  -ms-transform: translate3d(0, 0, 0);  -o-transform: translate3d(0, 0, 0);  transform: translate3d(0, 0, 0);  max-width: 200px;  position: absolute;  z-index: 2000;  display: block;  top: 0;  right: 100%;  height: 100%;  width: 100%;  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  animation: gradient 1.5s ease infinite;  background-size: 200%;}.pace.pace-inactive {  opacity: 0;  transition: 0.3s;  top: -8px;}@keyframes gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}.loading-img {  background: url(https://picshack.net/ib/5CEy5AuqJ6.png) no-repeat center center;  background-size: cover;}]]></content>
       
     </entry>
     
@@ -159,10 +159,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/kslink.css"/>
-      <url>/css/kslink.css</url>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
       
-        <content type="html"><![CDATA[/* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transtion: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 12px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid, .fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: #9ff7a4;    color: #e4e9e6;}]]></content>
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -181,17 +181,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/emoji.js"/>
-      <url>/js/emoji.js</url>
-      
-        <content type="html"><![CDATA[// 如果当前页有评论就执行函数if (document.getElementById('post-comment')) owoBig();// 表情放大function owoBig() {    let flag = 1, // 设置节流阀        owo_time = '', // 设置计时器        m = 3; // 设置放大倍数    // 创建盒子    let div = document.createElement('div'),        body = document.querySelector('body');    // 设置ID    div.id = 'owo-big';    // 插入盒子    body.appendChild(div)    // 构造observer    let observer = new MutationObserver(mutations => {        for (let i = 0; i < mutations.length; i++) {            let dom = mutations[i].addedNodes,                owo_body = '';            if (dom.length == 2 && dom[1].className == 'OwO-body') owo_body = dom[1];            // 如果需要在评论内容中启用此功能请解除下面的注释            // else if (dom.length == 1 && dom[0].className == 'tk-comment') owo_body = dom[0];            else continue;                        // 禁用右键（手机端长按会出现右键菜单，为了体验给禁用掉）            if (document.body.clientWidth <= 768) owo_body.addEventListener('contextmenu', e => e.preventDefault());            // 鼠标移入            owo_body.onmouseover = (e) => {                    if (flag && e.target.tagName == 'IMG') {                        flag = 0;                        // 移入300毫秒后显示盒子                        owo_time = setTimeout(() => {                            let height = e.path[0].clientHeight * m, // 盒子高                                width = e.path[0].clientWidth * m, // 盒子宽                                left = (e.x - e.offsetX) - (width - e.path[0].clientWidth) / 2, // 盒子与屏幕左边距离                                top = e.y - e.offsetY; // 盒子与屏幕顶部距离                            if ((left + width) > body.clientWidth) left -= ((left + width) - body.clientWidth + 10); // 右边缘检测，防止超出屏幕                            if (left < 0) left = 10; // 左边缘检测，防止超出屏幕                            // 设置盒子样式                            div.style.cssText = `display:flex; height:${height}px; width:${width}px; left:${left}px; top:${top}px;`;                            // 在盒子中插入图片                            div.innerHTML = `<img src="${e.target.src}">`                        }, 300);                    }                };            // 鼠标移出隐藏盒子            owo_body.onmouseout = () => { div.style.display = 'none', flag = 1, clearTimeout(owo_time); }        }    })    observer.observe(document.getElementById('post-comment'), { subtree: true, childList: true }) // 监听的 元素 和 配置项}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/day.js"/>
       <url>/js/day.js</url>
       
@@ -203,10 +192,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
+      <link href="/js/emoji.js"/>
+      <url>/js/emoji.js</url>
       
-        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+        <content type="html"><![CDATA[// 如果当前页有评论就执行函数if (document.getElementById('post-comment')) owoBig();// 表情放大function owoBig() {    let flag = 1, // 设置节流阀        owo_time = '', // 设置计时器        m = 3; // 设置放大倍数    // 创建盒子    let div = document.createElement('div'),        body = document.querySelector('body');    // 设置ID    div.id = 'owo-big';    // 插入盒子    body.appendChild(div)    // 构造observer    let observer = new MutationObserver(mutations => {        for (let i = 0; i < mutations.length; i++) {            let dom = mutations[i].addedNodes,                owo_body = '';            if (dom.length == 2 && dom[1].className == 'OwO-body') owo_body = dom[1];            // 如果需要在评论内容中启用此功能请解除下面的注释            // else if (dom.length == 1 && dom[0].className == 'tk-comment') owo_body = dom[0];            else continue;                        // 禁用右键（手机端长按会出现右键菜单，为了体验给禁用掉）            if (document.body.clientWidth <= 768) owo_body.addEventListener('contextmenu', e => e.preventDefault());            // 鼠标移入            owo_body.onmouseover = (e) => {                    if (flag && e.target.tagName == 'IMG') {                        flag = 0;                        // 移入300毫秒后显示盒子                        owo_time = setTimeout(() => {                            let height = e.path[0].clientHeight * m, // 盒子高                                width = e.path[0].clientWidth * m, // 盒子宽                                left = (e.x - e.offsetX) - (width - e.path[0].clientWidth) / 2, // 盒子与屏幕左边距离                                top = e.y - e.offsetY; // 盒子与屏幕顶部距离                            if ((left + width) > body.clientWidth) left -= ((left + width) - body.clientWidth + 10); // 右边缘检测，防止超出屏幕                            if (left < 0) left = 10; // 左边缘检测，防止超出屏幕                            // 设置盒子样式                            div.style.cssText = `display:flex; height:${height}px; width:${width}px; left:${left}px; top:${top}px;`;                            // 在盒子中插入图片                            div.innerHTML = `<img src="${e.target.src}">`                        }, 300);                    }                };            // 鼠标移出隐藏盒子            owo_body.onmouseout = () => { div.style.display = 'none', flag = 1, clearTimeout(owo_time); }        }    })    observer.observe(document.getElementById('post-comment'), { subtree: true, childList: true }) // 监听的 元素 和 配置项}]]></content>
       
     </entry>
     
@@ -225,17 +214,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/fps.js"/>
-      <url>/js/fps.js</url>
-      
-        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/kunter.js"/>
       <url>/js/kunter.js</url>
       
@@ -247,10 +225,21 @@
     
     <entry>
       <title></title>
-      <link href="/js/nav.js"/>
-      <url>/js/nav.js</url>
+      <link href="/js/fps.js"/>
+      <url>/js/fps.js</url>
       
-        <content type="html"><![CDATA[document.addEventListener('pjax:complete', tonav);document.addEventListener('DOMContentLoaded', tonav);//响应pjaxfunction tonav() {    document.getElementById("name-container").setAttribute("style", "display:none");    var position = $(window).scrollTop();    $(window).scroll(function () {        var scroll = $(window).scrollTop();        if (scroll > position) {            document.getElementById("name-container").setAttribute("style", "");            document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");        } else {            document.getElementsByClassName("menus_items")[1].setAttribute("style", "");            document.getElementById("name-container").setAttribute("style", "display:none");        }        position = scroll;    });    //修复没有弄右键菜单的童鞋无法回顶部的问题    document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];}function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}]]></content>
+        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
       
     </entry>
     
@@ -262,6 +251,17 @@
       <url>/js/lunar.js</url>
       
         <content type="html"><![CDATA[var lunarInfo=[19416,19168,42352,21717,53856,55632,91476,22176,39632,21970,19168,42422,42192,53840,119381,46400,54944,44450,38320,84343,18800,42160,46261,27216,27968,109396,11104,38256,21234,18800,25958,54432,59984,28309,23248,11104,100067,37600,116951,51536,54432,120998,46416,22176,107956,9680,37584,53938,43344,46423,27808,46416,86869,19872,42416,83315,21168,43432,59728,27296,44710,43856,19296,43748,42352,21088,62051,55632,23383,22176,38608,19925,19152,42192,54484,53840,54616,46400,46752,103846,38320,18864,43380,42160,45690,27216,27968,44870,43872,38256,19189,18800,25776,29859,59984,27480,23232,43872,38613,37600,51552,55636,54432,55888,30034,22176,43959,9680,37584,51893,43344,46240,47780,44368,21977,19360,42416,86390,21168,43312,31060,27296,44368,23378,19296,42726,42208,53856,60005,54576,23200,30371,38608,19195,19152,42192,118966,53840,54560,56645,46496,22224,21938,18864,42359,42160,43600,111189,27936,44448,84835,37744,18936,18800,25776,92326,59984,27424,108228,43744,41696,53987,51552,54615,54432,55888,23893,22176,42704,21972,21200,43448,43344,46240,46758,44368,21920,43940,42416,21168,45683,26928,29495,27296,44368,84821,19296,42352,21732,53600,59752,54560,55968,92838,22224,19168,43476,41680,53584,62034,54560],solarMonth=[31,28,31,30,31,30,31,31,30,31,30,31],Gan=["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"],Zhi=["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"],Animals=["鼠","牛","虎","兔","龙","蛇","马","羊","猴","鸡","狗","猪"],solarTerm=["小寒","大寒","立春","雨水","惊蛰","春分","清明","谷雨","立夏","小满","芒种","夏至","小暑","大暑","立秋","处暑","白露","秋分","寒露","霜降","立冬","小雪","大雪","冬至"],sTermInfo=["9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c3598082c95f8c965cc920f","97bd0b06bdb0722c965ce1cfcc920f","b027097bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c359801ec95f8c965cc920f","97bd0b06bdb0722c965ce1cfcc920f","b027097bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c359801ec95f8c965cc920f","97bd0b06bdb0722c965ce1cfcc920f","b027097bd097c36b0b6fc9274c91aa","9778397bd19801ec9210c965cc920e","97b6b97bd19801ec95f8c965cc920f","97bd09801d98082c95f8e1cfcc920f","97bd097bd097c36b0b6fc9210c8dc2","9778397bd197c36c9210c9274c91aa","97b6b97bd19801ec95f8c965cc920e","97bd09801d98082c95f8e1cfcc920f","97bd097bd097c36b0b6fc9210c8dc2","9778397bd097c36c9210c9274c91aa","97b6b97bd19801ec95f8c965cc920e","97bcf97c3598082c95f8e1cfcc920f","97bd097bd097c36b0b6fc9210c8dc2","9778397bd097c36c9210c9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c3598082c95f8c965cc920f","97bd097bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c3598082c95f8c965cc920f","97bd097bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c359801ec95f8c965cc920f","97bd097bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c359801ec95f8c965cc920f","97bd097bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf97c359801ec95f8c965cc920f","97bd097bd07f595b0b6fc920fb0722","9778397bd097c36b0b6fc9210c8dc2","9778397bd19801ec9210c9274c920e","97b6b97bd19801ec95f8c965cc920f","97bd07f5307f595b0b0bc920fb0722","7f0e397bd097c36b0b6fc9210c8dc2","9778397bd097c36c9210c9274c920e","97b6b97bd19801ec95f8c965cc920f","97bd07f5307f595b0b0bc920fb0722","7f0e397bd097c36b0b6fc9210c8dc2","9778397bd097c36c9210c9274c91aa","97b6b97bd19801ec9210c965cc920e","97bd07f1487f595b0b0bc920fb0722","7f0e397bd097c36b0b6fc9210c8dc2","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf7f1487f595b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf7f1487f595b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf7f1487f531b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c965cc920e","97bcf7f1487f531b0b0bb0b6fb0722","7f0e397bd07f595b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b97bd19801ec9210c9274c920e","97bcf7f0e47f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","9778397bd097c36b0b6fc9210c91aa","97b6b97bd197c36c9210c9274c920e","97bcf7f0e47f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","9778397bd097c36b0b6fc9210c8dc2","9778397bd097c36c9210c9274c920e","97b6b7f0e47f531b0723b0b6fb0722","7f0e37f5307f595b0b0bc920fb0722","7f0e397bd097c36b0b6fc9210c8dc2","9778397bd097c36b0b70c9274c91aa","97b6b7f0e47f531b0723b0b6fb0721","7f0e37f1487f595b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc9210c8dc2","9778397bd097c36b0b6fc9274c91aa","97b6b7f0e47f531b0723b0b6fb0721","7f0e27f1487f595b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","9778397bd097c36b0b6fc9274c91aa","97b6b7f0e47f531b0723b0787b0721","7f0e27f0e47f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","9778397bd097c36b0b6fc9210c91aa","97b6b7f0e47f149b0723b0787b0721","7f0e27f0e47f531b0723b0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","9778397bd097c36b0b6fc9210c8dc2","977837f0e37f149b0723b0787b0721","7f07e7f0e47f531b0723b0b6fb0722","7f0e37f5307f595b0b0bc920fb0722","7f0e397bd097c35b0b6fc9210c8dc2","977837f0e37f14998082b0787b0721","7f07e7f0e47f531b0723b0b6fb0721","7f0e37f1487f595b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc9210c8dc2","977837f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","977837f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd097c35b0b6fc920fb0722","977837f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","977837f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","977837f0e37f14998082b0787b06bd","7f07e7f0e47f149b0723b0787b0721","7f0e27f0e47f531b0b0bb0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","977837f0e37f14998082b0723b06bd","7f07e7f0e37f149b0723b0787b0721","7f0e27f0e47f531b0723b0b6fb0722","7f0e397bd07f595b0b0bc920fb0722","977837f0e37f14898082b0723b02d5","7ec967f0e37f14998082b0787b0721","7f07e7f0e47f531b0723b0b6fb0722","7f0e37f1487f595b0b0bb0b6fb0722","7f0e37f0e37f14898082b0723b02d5","7ec967f0e37f14998082b0787b0721","7f07e7f0e47f531b0723b0b6fb0722","7f0e37f1487f531b0b0bb0b6fb0722","7f0e37f0e37f14898082b0723b02d5","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e37f1487f531b0b0bb0b6fb0722","7f0e37f0e37f14898082b072297c35","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e37f0e37f14898082b072297c35","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e37f0e366aa89801eb072297c35","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f149b0723b0787b0721","7f0e27f1487f531b0b0bb0b6fb0722","7f0e37f0e366aa89801eb072297c35","7ec967f0e37f14998082b0723b06bd","7f07e7f0e47f149b0723b0787b0721","7f0e27f0e47f531b0723b0b6fb0722","7f0e37f0e366aa89801eb072297c35","7ec967f0e37f14998082b0723b06bd","7f07e7f0e37f14998083b0787b0721","7f0e27f0e47f531b0723b0b6fb0722","7f0e37f0e366aa89801eb072297c35","7ec967f0e37f14898082b0723b02d5","7f07e7f0e37f14998082b0787b0721","7f07e7f0e47f531b0723b0b6fb0722","7f0e36665b66aa89801e9808297c35","665f67f0e37f14898082b0723b02d5","7ec967f0e37f14998082b0787b0721","7f07e7f0e47f531b0723b0b6fb0722","7f0e36665b66a449801e9808297c35","665f67f0e37f14898082b0723b02d5","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e36665b66a449801e9808297c35","665f67f0e37f14898082b072297c35","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e26665b66a449801e9808297c35","665f67f0e37f1489801eb072297c35","7ec967f0e37f14998082b0787b06bd","7f07e7f0e47f531b0723b0b6fb0721","7f0e27f1487f531b0b0bb0b6fb0722"],nStr1=["日","一","二","三","四","五","六","七","八","九","十"],nStr2=["初","十","廿","卅"],nStr3=["正","二","三","四","五","六","七","八","九","十","冬","腊"];function lYearDays(b){var f,c=348;for(f=32768;f>8;f>>=1)c+=lunarInfo[b-1900]&f?1:0;return c+leapDays(b)}function leapMonth(b){return 15&lunarInfo[b-1900]}function leapDays(b){return leapMonth(b)?65536&lunarInfo[b-1900]?30:29:0}function monthDays(b,f){return f>12||f<1?-1:lunarInfo[b-1900]&65536>>f?30:29}function solarDays(b,f){if(f>12||f<1)return-1;var c=f-1;return 1===c?b%4==0&&b%100!=0||b%400==0?29:28:solarMonth[c]}function toGanZhiYear(b){var f=(b-3)%10,c=(b-3)%12;return 0===f&&(f=10),0===c&&(c=12),Gan[f-1]+Zhi[c-1]}function toAstro(b,f){return"魔羯水瓶双鱼白羊金牛双子巨蟹狮子处女天秤天蝎射手魔羯".substr(2*b-(f<[20,19,21,21,21,22,23,23,23,23,22,22][b-1]?2:0),2)+"座"}function toGanZhi(b){return Gan[b%10]+Zhi[b%12]}function getTerm(b,f){if(b<1900||b>2100)return-1;if(f<1||f>24)return-1;var c=sTermInfo[b-1900],e=[parseInt("0x"+c.substr(0,5)).toString(),parseInt("0x"+c.substr(5,5)).toString(),parseInt("0x"+c.substr(10,5)).toString(),parseInt("0x"+c.substr(15,5)).toString(),parseInt("0x"+c.substr(20,5)).toString(),parseInt("0x"+c.substr(25,5)).toString()],a=[e[0].substr(0,1),e[0].substr(1,2),e[0].substr(3,1),e[0].substr(4,2),e[1].substr(0,1),e[1].substr(1,2),e[1].substr(3,1),e[1].substr(4,2),e[2].substr(0,1),e[2].substr(1,2),e[2].substr(3,1),e[2].substr(4,2),e[3].substr(0,1),e[3].substr(1,2),e[3].substr(3,1),e[3].substr(4,2),e[4].substr(0,1),e[4].substr(1,2),e[4].substr(3,1),e[4].substr(4,2),e[5].substr(0,1),e[5].substr(1,2),e[5].substr(3,1),e[5].substr(4,2)];return parseInt(a[f-1])}function toChinaMonth(b){if(b>12||b<1)return-1;var f=nStr3[b-1];return f+="月"}function toChinaDay(b){var f;switch(b){case 10:f="初十";break;case 20:f="二十";break;case 30:f="三十";break;default:f=nStr2[Math.floor(b/10)],f+=nStr1[b%10]}return f}function getAnimal(b){return Animals[(b-4)%12]}function solar2lunar(b,f,c){if(b<1900||b>2100)return-1;if(1900===b&&1===f&&c<31)return-1;var e,a,r=null,t=0;b=(r=b?new Date(b,parseInt(f)-1,c):new Date).getFullYear(),f=r.getMonth()+1,c=r.getDate();var d=(Date.UTC(r.getFullYear(),r.getMonth(),r.getDate())-Date.UTC(1900,0,31))/864e5;for(e=1900;e<2101&&d>0;e++)d-=t=lYearDays(e);d<0&&(d+=t,e--);var n=new Date,s=!1;n.getFullYear()===b&&n.getMonth()+1===f&&n.getDate()===c&&(s=!0);var u=r.getDay(),o=nStr1[u];0===u&&(u=7);var l=e;a=leapMonth(e);var i=!1;for(e=1;e<13&&d>0;e++)a>0&&e===a+1&&!1===i?(--e,i=!0,t=leapDays(l)):t=monthDays(l,e),!0===i&&e===a+1&&(i=!1),d-=t;0===d&&a>0&&e===a+1&&(i?i=!1:(i=!0,--e)),d<0&&(d+=t,--e);var h=e,D=d+1,g=f-1,v=toGanZhiYear(l),y=getTerm(b,2*f-1),m=getTerm(b,2*f),p=toGanZhi(12*(b-1900)+f+11);c>=y&&(p=toGanZhi(12*(b-1900)+f+12));var M=!1,T=null;y===c&&(M=!0,T=solarTerm[2*f-2]),m===c&&(M=!0,T=solarTerm[2*f-1]);var I=toGanZhi(Date.UTC(b,g,1,0,0,0,0)/864e5+25567+10+c-1),C=toAstro(f,c);return{lYear:l,lMonth:h,lDay:D,Animal:getAnimal(l),IMonthCn:(i?"闰":"")+toChinaMonth(h),IDayCn:toChinaDay(D),cYear:b,cMonth:f,cDay:c,gzYear:v,gzMonth:p,gzDay:I,isToday:s,isLeap:i,nWeek:u,ncWeek:"星期"+o,isTerm:M,Term:T,astro:C}}var calendarFormatter={solar2lunar:function(b,f,c){return solar2lunar(b,f,c)},lunar2solar:function(b,f,c,e){if((e=!!e)&&leapMonth!==f)return-1;if(2100===b&&12===f&&c>1||1900===b&&1===f&&c<31)return-1;var a=monthDays(b,f),r=a;if(e&&(r=leapDays(b,f)),b<1900||b>2100||c>r)return-1;for(var t=0,d=1900;d<b;d++)t+=lYearDays(d);var n=0,s=!1;for(d=1;d<f;d++)n=leapMonth(b),s||n<=d&&n>0&&(t+=leapDays(b),s=!0),t+=monthDays(b,d);e&&(t+=a);var u=Date.UTC(1900,1,30,0,0,0),o=new Date(864e5*(t+c-31)+u);return solar2lunar(o.getUTCFullYear(),o.getUTCMonth()+1,o.getUTCDate())}};]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/nav.js"/>
+      <url>/js/nav.js</url>
+      
+        <content type="html"><![CDATA[document.addEventListener('pjax:complete', tonav);document.addEventListener('DOMContentLoaded', tonav);//响应pjaxfunction tonav() {    document.getElementById("name-container").setAttribute("style", "display:none");    var position = $(window).scrollTop();    $(window).scroll(function () {        var scroll = $(window).scrollTop();        if (scroll > position) {            document.getElementById("name-container").setAttribute("style", "");            document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");        } else {            document.getElementsByClassName("menus_items")[1].setAttribute("style", "");            document.getElementById("name-container").setAttribute("style", "display:none");        }        position = scroll;    });    //修复没有弄右键菜单的童鞋无法回顶部的问题    document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];}function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}]]></content>
       
     </entry>
     
@@ -313,6 +313,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
+      
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👀跑哪里去了~';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐖抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
@@ -324,10 +335,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
+      <link href="/js/ya.js"/>
+      <url>/js/ya.js</url>
       
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👀跑哪里去了~';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐖抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+        <content type="html"><![CDATA[function switchPostChart () {    // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义    let color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4C4948' : 'rgba(255,255,255,0.7)'    if (document.getElementById('posts-chart') && postsOption) {      try {        let postsOptionNew = postsOption        postsOptionNew.title.textStyle.color = color        postsOptionNew.xAxis.nameTextStyle.color = color        postsOptionNew.yAxis.nameTextStyle.color = color        postsOptionNew.xAxis.axisLabel.color = color        postsOptionNew.yAxis.axisLabel.color = color        postsOptionNew.xAxis.axisLine.lineStyle.color = color        postsOptionNew.yAxis.axisLine.lineStyle.color = color        postsOptionNew.series[0].markLine.data[0].label.color = color        postsChart.setOption(postsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('tags-chart') && tagsOption) {      try {        let tagsOptionNew = tagsOption        tagsOptionNew.title.textStyle.color = color        tagsOptionNew.xAxis.nameTextStyle.color = color        tagsOptionNew.yAxis.nameTextStyle.color = color        tagsOptionNew.xAxis.axisLabel.color = color        tagsOptionNew.yAxis.axisLabel.color = color        tagsOptionNew.xAxis.axisLine.lineStyle.color = color        tagsOptionNew.yAxis.axisLine.lineStyle.color = color        tagsOptionNew.series[0].markLine.data[0].label.color = color        tagsChart.setOption(tagsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('categories-chart') && categoriesOption) {      try {        let categoriesOptionNew = categoriesOption        categoriesOptionNew.title.textStyle.color = color        categoriesOptionNew.legend.textStyle.color = color        if (!categoryParentFlag) { categoriesOptionNew.series[0].label.color = color }        categoriesChart.setOption(categoriesOptionNew)      } catch (error) {        console.log(error)      }    }  }  document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })]]></content>
       
     </entry>
     
@@ -345,11 +356,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/ya.js"/>
-      <url>/js/ya.js</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[function switchPostChart () {    // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义    let color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4C4948' : 'rgba(255,255,255,0.7)'    if (document.getElementById('posts-chart') && postsOption) {      try {        let postsOptionNew = postsOption        postsOptionNew.title.textStyle.color = color        postsOptionNew.xAxis.nameTextStyle.color = color        postsOptionNew.yAxis.nameTextStyle.color = color        postsOptionNew.xAxis.axisLabel.color = color        postsOptionNew.yAxis.axisLabel.color = color        postsOptionNew.xAxis.axisLine.lineStyle.color = color        postsOptionNew.yAxis.axisLine.lineStyle.color = color        postsOptionNew.series[0].markLine.data[0].label.color = color        postsChart.setOption(postsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('tags-chart') && tagsOption) {      try {        let tagsOptionNew = tagsOption        tagsOptionNew.title.textStyle.color = color        tagsOptionNew.xAxis.nameTextStyle.color = color        tagsOptionNew.yAxis.nameTextStyle.color = color        tagsOptionNew.xAxis.axisLabel.color = color        tagsOptionNew.yAxis.axisLabel.color = color        tagsOptionNew.xAxis.axisLine.lineStyle.color = color        tagsOptionNew.yAxis.axisLine.lineStyle.color = color        tagsOptionNew.series[0].markLine.data[0].label.color = color        tagsChart.setOption(tagsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('categories-chart') && categoriesOption) {      try {        let categoriesOptionNew = categoriesOption        categoriesOptionNew.title.textStyle.color = color        categoriesOptionNew.legend.textStyle.color = color        if (!categoryParentFlag) { categoriesOptionNew.series[0].label.color = color }        categoriesChart.setOption(categoriesOptionNew)      } catch (error) {        console.log(error)      }    }  }  document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -383,17 +394,6 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[<p>我的</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
